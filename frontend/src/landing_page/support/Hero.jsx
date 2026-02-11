@@ -5,7 +5,9 @@ function Hero() {
         <section className="container-fluid" id="supportHero">
             <div className="p-3 d-flex justify-content-between align-items-center" id="supportWrapper">
                 <h4>Support Portal</h4>
-                <a href="#" className="text-primary">Track Tickets</a>
+                <button className="btn btn-link text-primary p-0" type="button">
+                    Track Tickets
+                </button>
             </div>
 
             <div className="row p-5 mx-2">
@@ -19,11 +21,11 @@ function Hero() {
                         className="form-control mt-3" 
                         placeholder="Eg: how do I activate F&O, why is my order getting rejected..."
                     />
-                    <div className="mt-3">
-                        <a href="#" className="btn btn-outline-primary me-2 mb-2">Track account opening</a>
-                        <a href="#" className="btn btn-outline-primary me-2 mb-2">Track segment activation</a>
-                        <a href="#" className="btn btn-outline-primary me-2 mb-2">Intraday margins</a>
-                        <a href="#" className="btn btn-outline-primary me-2 mb-2">Kite user manual</a>
+                    <div className="mt-3 d-flex flex-wrap gap-2">
+                        <button className="btn btn-outline-primary" type="button">Track account opening</button>
+                        <button className="btn btn-outline-primary" type="button">Track segment activation</button>
+                        <button className="btn btn-outline-primary" type="button">Intraday margins</button>
+                        <button className="btn btn-outline-primary" type="button">Kite user manual</button>
                     </div>
                 </div>
 
@@ -32,14 +34,14 @@ function Hero() {
                     <h3>Featured</h3>
                     <ol className="list-unstyled">
                         <li>
-                            <a href="#" className="text-primary">
+                            <button className="btn btn-link text-primary p-0" type="button">
                                 MCX Crude option contract expiry - November 2025
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a href="#" className="text-primary">
+                            <button className="btn btn-link text-primary p-0" type="button">
                                 Latest Intraday leverages and Square-off timings
-                            </a>
+                            </button>
                         </li>
                     </ol>
                 </div>
