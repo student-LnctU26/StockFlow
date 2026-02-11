@@ -17,16 +17,24 @@ function Education() {
             Varsity, the largest online stock market education book in the world
             covering everything from the basics to advanced trading.
           </p>
-          <a href="" className="text-decoration-none">
+          <button
+            type="button"
+            className="btn btn-link p-0 text-primary"
+            onClick={() => window.open("https://zerodha.com/varsity/", "_blank")}
+          >
             Varsity <i className="fa-solid fa-arrow-right-long"></i>
-          </a>
+          </button>
           <p className="mt-4">
             TradingQ&A, the most active trading and investment community in
             India for all your market-related queries.
           </p>
-          <a href="" className="text-decoration-none">
+          <button
+            type="button"
+            className="btn btn-link p-0 text-primary"
+            onClick={() => window.open("https://tradingqna.com/", "_blank")}
+          >
             TradingQ&A <i className="fa-solid fa-arrow-right-long"></i>
-          </a>
+          </button>
         </div>
       </div>
     </div>

@@ -5,9 +5,14 @@ function Brokerage() {
         <div className="container p-4">
             <div className="row">
                 <div className="col-md-8 p-4">
-                    <a href="" style={{textDecoration:"none"}}>   
+                    <button
+                        type="button"
+                        className="btn btn-link p-0"
+                        style={{ textDecoration: "none" }}
+                        onClick={() => window.open("https://stockflow.tech/brokerage-calculator", "_blank")}
+                    >
                         <h3 className='fs-5'>Brokerage calculator</h3>
-                    </a>
+                    </button>
                     <ul className="list-unstyled" style={{lineHeight:"2", fontSize:"14px"}}>
                         <li>Call & trades and RMS auto-squaeoff: Additional charges of ₹50 + GST per order.</li>
                         <li>Digital contract notes will be sent via email.</li>
@@ -16,9 +21,14 @@ function Brokerage() {
                     </ul>
                 </div>
                 <div className="col-md-4">
-                    <a href="" style={{textDecoration:"none"}}>  
+                    <button
+                        type="button"
+                        className="btn btn-link p-0"
+                        style={{ textDecoration: "none" }}
+                        onClick={() => window.open("https://stockflow.tech/charges-list", "_blank")}
+                    >
                         <h3 className='fs-5'>List of charges</h3>
-                    </a> 
+                    </button>
                 </div>
             </div>
         </div>

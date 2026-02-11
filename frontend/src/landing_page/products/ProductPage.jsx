@@ -8,6 +8,7 @@ function ProductPage() {
     return ( 
        <div>
         <Hero/>
+        
         <LeftSection
             imageURL="media/images/kite.png"
             productName="Kite"

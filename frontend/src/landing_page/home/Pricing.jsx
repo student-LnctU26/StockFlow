@@ -10,9 +10,13 @@ function Pricing() {
             We pioneered the concept of discount broking and price transparency
             in India. Flat fees and no hidden charges.
           </p>
-          <a href="" className="text-decoration-none">
+          <button
+            type="button"
+            className="btn btn-link p-0 text-primary"
+            onClick={() => window.open("/pricing", "_self")} // Replace with actual link if needed
+          >
             See Pricing <i className="fa-solid fa-arrow-right-long"></i>
-          </a>
+          </button>
         </div>
         <div className="col-md-6 mb-4">
           <div className="row text-center">

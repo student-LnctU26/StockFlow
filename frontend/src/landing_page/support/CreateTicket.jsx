@@ -47,13 +47,7 @@ function CreateTicket() {
                             <i className={`fa-solid ${section.icon}`}></i> {section.title}
                         </h4>
                         {section.links.map((link, i) => (
-                            <button
-                                key={i}
-                                type="button"
-                                className="btn btn-link p-0"
-                                style={{ display: "block", lineHeight: "2", textDecoration: "none" }}
-                                onClick={() => alert(`You clicked on "${link}"`)}
-                            >
+                            <button key={i} className="btn btn-link p-0 d-block mb-2" type="button">
                                 {link}
                             </button>
                         ))}
